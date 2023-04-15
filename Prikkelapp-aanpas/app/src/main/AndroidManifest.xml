@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.prikkelapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Prikkelapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name="com.hfad.prikkelapp.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.hfad.prikkelapp.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hfad.prikkelapp.Green"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.hfad.prikkelapp.Red"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.hfad.prikkelapp.Yellow"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+    </application>
+
+</manifest>

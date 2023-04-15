@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prikkelapp</string>
+    <string name="R95">R95</string>
+    <string-array name="greenText"></string-array>
+    <string-array name="yellowText"></string-array>
+    <string-array name="redText"></string-array>
+
+
+</resources>
